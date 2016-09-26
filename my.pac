@@ -1,6 +1,5 @@
-# pac
-// https://pac.mcplay.cn
 
+// pac
 var proxy = "PROXY 192.168.31.1:1080;";
 
 var domains = {
