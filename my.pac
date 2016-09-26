@@ -2625,17 +2625,12 @@ var direct = 'DIRECT;';
 var hasOwnProperty = Object.hasOwnProperty;
 
 function FindProxyForURL(url, host) {
-    if (host == "test.test") {
-        return "PROXY pac.mcplay.cn:80";
-    }
-
+   
     var suffix;
     var pos = host.lastIndexOf('.');
     while(1) {
         suffix = host.substring(pos + 1);
-        if (suffix == "test'.test")
-            if (url.indexOf('http://') == 0)
-                return "PROXY pac.mcplay.cn:80";
+        
         if (hasOwnProperty.call(domains, suffix)) {
             return proxy;
         }
