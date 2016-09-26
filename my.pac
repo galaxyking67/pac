@@ -1,6 +1,6 @@
 
 // https://raw.githubusercontent.com/galaxyking67/pac/master/my.pac
-var proxy = "PROXY 192.168.31.1:1080;";
+var proxy = "SOCKS5 192.168.31.1:1080;";
 
 var domains = {
   "bbc.com": 1,
